@@ -11,7 +11,7 @@ angular.module('modernhnApp')
   .controller('MainCtrl', function ($scope, $firebase, $http) {
     var ref = new Firebase('https://hacker-news.firebaseio.com/v0/topstories');
     
-    var limit = $firebase(ref.limit(10));
+    var limit = $firebase(ref.limit(30));
 
     var topStoryRefs = limit.$asArray();
 
