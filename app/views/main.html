@@ -2,7 +2,7 @@
   <tbody>
     <tr ng-repeat='story in topStories'>
       <td><span class="dropup"><span class="caret"></span></span> {{story.score}}</td>
-      <td><a href="#">{{story.title}}</a></td>
+      <td><a href="{{story.url}}">{{story.title}}</a></td>
       <td><a href="#">{{story.kids.length}} comments</a></td>
     </tr>
   </tbody>
