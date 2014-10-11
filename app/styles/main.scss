@@ -3,6 +3,18 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+.spacer {
+  margin-top: 5em;
+}
+
+.table > tbody > tr > td > a {
+  color: #000000;
+}
+
+.table > tbody > tr > td > a:hover {
+  color: rgb(221, 75, 57);
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -12,7 +24,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 65px;
   padding-bottom: 20px;
 }
 
