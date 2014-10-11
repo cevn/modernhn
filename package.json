@@ -38,6 +38,6 @@
   },
   "scripts": {
     "test": "grunt test",
-    "postinstall": "./node_modules/grunt-cli/bin/grunt serve"
+    "postinstall": "npm install; ./node_modules/.bin/bower install"
   }
 }
