@@ -38,6 +38,6 @@
   },
   "scripts": {
     "test": "grunt test",
-    "postinstall": "npm install; ./node_modules/.bin/bower install"
+    "postinstall": "./node_modules/.bin/bower install"
   }
 }
