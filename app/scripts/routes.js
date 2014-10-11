@@ -18,14 +18,5 @@ angular.module('modernhnApp')
         controller: 'MainCtrl'
       })
 
-      .when('/chat', {
-        templateUrl: 'views/chat.html',
-        controller: 'ChatCtrl'
-      })
-
-      .when('/chat', {
-        templateUrl: 'views/chat.html',
-        controller: 'ChatCtrl'
-      })
       .otherwise({redirectTo: '/'});
   }]);
