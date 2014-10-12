@@ -18,5 +18,9 @@ angular.module('modernhnApp')
         controller: 'MainCtrl'
       })
 
+      .when('/comments/:id', {
+        templateUrl: 'views/comments.html',
+        controller: 'CommentsCtrl'
+      })
       .otherwise({redirectTo: '/'});
   }]);
