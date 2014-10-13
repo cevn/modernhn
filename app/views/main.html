@@ -1,8 +1,8 @@
 <table class="table table-striped table-hover">
   <tbody>
     <tr ng-repeat='story in topStories'>
-      <td><span class="dropup"><span class="caret"></span></span> {{story.score}}</td>
-      <td><a href="{{story.url}}">{{story.title}}</a></td>
+      <td><span class="dropup"><span class="caret"></span></span> {{story.score}}</td> 
+      <td><a href="{{story.url}}">{{story.title}}</a><small class="text-muted"> by <a href="#/user/{{story.by}}">{{story.by}}</a> </td>
       <td><a class='btn btn-default btn-xs' href="#/comments/{{story.id}}">{{story.kids.length}} comments</a></td>
     </tr>
   </tbody>
