@@ -7,6 +7,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   margin-top: 5em;
 }
 
+
 .container-full {
   margin: 0 auto;
   width: 100%;
@@ -16,8 +17,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   color: #000000;
 }
 
+.table > tbody > tr > td > a {
+  text-decoration: none;
+}
+
 .table > tbody > tr > td > a:hover {
   color: rgb(221, 75, 57);
+}
+
+.table > tbody > tr > td > small > a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
 }
 
 .browsehappy {
