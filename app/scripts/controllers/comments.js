@@ -24,9 +24,9 @@ angular.module('modernhnApp')
       }
     });
     
-    $scope.to_trusted = function(html_code) {
-      return $sce.trustAsHtml(html_code);
-    }
+    $scope.toTrusted = function(html) {
+      return $sce.trustAsHtml(html);
+    };
 
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
